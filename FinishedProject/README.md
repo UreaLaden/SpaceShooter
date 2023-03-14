@@ -1,7 +1,15 @@
 # ARC SURVIVAL
 
-* TOC 
-{:toc}
+## Table of Contents
+- [Project Setup and Source Control Primer](#1-project-setup-and-source-control-primer)
+- [GameManager Setup](#2-gamemanager-setup)
+- [Get a Player on Screen](#3-get-a-player-on-screen)
+- [Add Pickups](#4-add-pickups)
+- [Add Explosions](#5-add-explosions)
+- [Add Meteors](#5-add-meteors)
+- [Add Enemies](#6-add-enemies)
+- [Recording and Updating Top Scores](#7-recording-and-updating-top-scores)
+- [Resources](#resources)
 
 
 
