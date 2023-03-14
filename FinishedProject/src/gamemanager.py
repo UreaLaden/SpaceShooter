@@ -4,7 +4,7 @@ from src.soundeffects import *
 from src.constants import *
 
 class GameManager():
-    """Initialize the Game Space"""
+    """Initialize and Setup the Game Space"""
     def __init__(self):
         self.InitializeGameSpace()
         self.background   = self.LoadBackground()
@@ -44,7 +44,7 @@ class GameManager():
         self.screen = pygame.display.set_mode((Config.SCREEN_WIDTH.value,Config.SCREEN_HEIGHT.value)) #Initialize the display
 
     def LoadBackground(self):
-        """Returns a tuple contain the background Image and its Rect"""
+        """Returns a tuple containing the background Image and its Rect"""
         img_dir = path.join(Directories.IMG_DIR.value,'Background-4.jpg')
         
         background:dict[pygame.Surface,pygame.Rect] = {}

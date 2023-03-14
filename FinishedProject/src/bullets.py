@@ -20,6 +20,7 @@ class Bullet(pygame.sprite.Sprite):
             self.kill()
 
 def SpawnBullet(game:GameManager,x:int,y:int):
+    """Spawns a bullet at position (x,y)"""
     bullet = Bullet(x,y)
     game.all_sprites.add(bullet)
     game.bullet_group.add(bullet)
