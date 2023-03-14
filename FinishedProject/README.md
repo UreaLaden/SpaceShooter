@@ -15,6 +15,7 @@
 
 ## 1. Project Setup and Source Control Primer
 - Quick Demo and Tutorial Plan Remarks
+- Download Python
 - Download Starter Code
 - Setup Github Repo
 - **Super Brief** Overview of Core Github commands
